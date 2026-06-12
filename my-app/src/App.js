@@ -1,5 +1,12 @@
+import Navbar from "./Navbar";
+
 function App() {
-  return <h1>learning React.js</h1>;
+  return (
+    <>
+      <Navbar />
+      <h1>Hello World</h1>
+    </>
+  );
 }
 
 export default App;
